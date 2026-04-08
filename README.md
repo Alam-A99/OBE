@@ -122,7 +122,7 @@ Aplikasi dapat di-embed ke Blogger menggunakan iframe:
 
 ```html
 <iframe 
-    src="https://your-app.streamlit.app"
+    src="https://obe-cpl-bisdigunm.streamlit.app/"
     width="100%" 
     height="800">
 </iframe>
