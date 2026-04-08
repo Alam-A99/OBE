@@ -156,14 +156,12 @@ Laporan PDF berisi:
 * Spider Chart
 * Analisis CQI
 
-
 ## 🧠 Interpretasi CPL
 
 | Nilai | Status         |
 | ----- | -------------- |
 | ≥ 70  | Tercapai       |
 | < 70  | Belum Tercapai |
-
 
 ## Pengembangan Lanjutan
 
@@ -173,14 +171,33 @@ Laporan PDF berisi:
 * Tracking CPL antar semester
 * Integrasi sistem akademik
 
-## 👨‍🏫 Pengembang
+## Pengembang
 
 **Program Studi Bisnis Digital**
 Fakultas Ekonomi dan Bisnis
 Universitas Negeri Makassar
 
-
 ## 📌 Lisensi
 
-Digunakan untuk keperluan akademik, penelitian, dan pengembangan sistem OBE di lingkungan pendidikan tinggi.
----
+© 2026 **dataaksi.id**
+Proyek ini menggunakan prinsip **Copyleft License**.
+
+* Bebas digunakan untuk keperluan akademik, penelitian, dan pengembangan
+* Bebas dimodifikasi dan dikembangkan
+* Wajib mencantumkan atribusi kepada **dataaksi.id**
+* Distribusi ulang harus menggunakan lisensi yang sama (copyleft)
+
+## 🤝 Attribution
+Jika menggunakan atau mengembangkan sistem ini, mohon mencantumkan:
+
+```text
+Dashboard CPL OBE - dataaksi.id
+Program Studi Bisnis Digital FEB UNM
+```
+
+## ⚠️ Catatan
+Sistem ini dikembangkan untuk:
+
+* Penguatan implementasi OBE
+* Evaluasi capaian pembelajaran (CPL)
+* Mendukung akreditasi dan peningkatan mutu pendidikan
