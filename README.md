@@ -12,7 +12,6 @@ Dashboard ini merupakan sistem berbasis **Outcome-Based Education (OBE)** yang d
 * Mendukung evaluasi berkelanjutan (**Continuous Quality Improvement / CQI**)
 * Menyediakan laporan otomatis untuk kebutuhan akreditasi (BAN-PT / LAMEMBA)
 
----
 
 ## ⚙️ Fitur Utama
 
@@ -27,7 +26,6 @@ Dashboard ini merupakan sistem berbasis **Outcome-Based Education (OBE)** yang d
 * ✅ Analisis CQI otomatis
 * ✅ Export laporan PDF (lengkap dengan grafik dan identitas)
 
----
 
 ## Konsep OBE yang Digunakan
 
@@ -43,8 +41,6 @@ Pendekatan:
 Komponen Nilai → CPL (Mata Kuliah) → CPL (Prodi) → Evaluasi CQI
 ```
 
----
-
 ## Struktur Proyek
 
 ```bash
@@ -54,8 +50,6 @@ cpl-dashboard/
 ├── requirements.txt
 ├── README.md
 ```
-
----
 
 ## Requirements
 
@@ -70,7 +64,6 @@ reportlab
 matplotlib
 ```
 
----
 
 ##  Instalasi Lokal
 
@@ -79,7 +72,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
----
 
 ## Deployment ke GitHub
 
@@ -90,7 +82,6 @@ git init
 git add .
 git commit -m "Initial commit CPL Dashboard"
 ```
----
 
 ### 2. Hubungkan ke Repository
 
@@ -99,7 +90,6 @@ git remote add origin https://github.com/USERNAME/cpl-dashboard.git
 git branch -M main
 git push -u origin main
 ```
----
 
 ## Deployment ke Streamlit Cloud
 👉 Streamlit Community Cloud
@@ -112,7 +102,6 @@ git push -u origin main
    * `app.py`
 5. Klik **Deploy**
 
----
 
 ## 🔁 Auto Deployment
 Setiap perubahan kode:
@@ -128,8 +117,6 @@ git push
 * Update di GitHub
 * Redeploy aplikasi di Streamlit
 
----
-
 ## 🌍 Integrasi dengan Blogger
 Aplikasi dapat di-embed ke Blogger menggunakan iframe:
 
@@ -140,7 +127,6 @@ Aplikasi dapat di-embed ke Blogger menggunakan iframe:
     height="800">
 </iframe>
 ```
----
 ## 📊 Struktur Dataset
 
 Format Excel:
@@ -148,7 +134,6 @@ Format Excel:
 | Nama | Tugas | Partisipasi | Proyek | UTS | Quiz | UAS |
 | ---- | ----- | ----------- | ------ | --- | ---- | --- |
 
----
 ## Output Sistem
 
 * Rata-rata CPL
@@ -157,7 +142,6 @@ Format Excel:
 * Analisis mahasiswa
 * Status CPL
 * Laporan PDF otomatis
----
 
 ## Output PDF
 
@@ -172,7 +156,6 @@ Laporan PDF berisi:
 * Spider Chart
 * Analisis CQI
 
----
 
 ## 🧠 Interpretasi CPL
 
@@ -181,7 +164,6 @@ Laporan PDF berisi:
 | ≥ 70  | Tercapai       |
 | < 70  | Belum Tercapai |
 
----
 
 ## Pengembangan Lanjutan
 
@@ -190,7 +172,6 @@ Laporan PDF berisi:
 * Login multi-user (dosen)
 * Tracking CPL antar semester
 * Integrasi sistem akademik
----
 
 ## 👨‍🏫 Pengembang
 
@@ -198,7 +179,6 @@ Laporan PDF berisi:
 Fakultas Ekonomi dan Bisnis
 Universitas Negeri Makassar
 
----
 
 ## 📌 Lisensi
 
