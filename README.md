@@ -3,7 +3,7 @@
 ### Fakultas Ekonomi dan Bisnis
 ### Universitas Negeri Makassar (UNM)
 ---
-## 🎯 Deskripsi Sistem
+## Deskripsi Sistem
 
 Dashboard ini merupakan sistem berbasis **Outcome-Based Education (OBE)** yang digunakan untuk:
 
@@ -29,7 +29,7 @@ Dashboard ini merupakan sistem berbasis **Outcome-Based Education (OBE)** yang d
 
 ---
 
-## 🧠 Konsep OBE yang Digunakan
+## Konsep OBE yang Digunakan
 
 Sistem ini mengacu pada:
 
@@ -45,7 +45,7 @@ Komponen Nilai → CPL (Mata Kuliah) → CPL (Prodi) → Evaluasi CQI
 
 ---
 
-## 📁 Struktur Proyek
+## Struktur Proyek
 
 ```bash
 cpl-dashboard/
@@ -57,7 +57,7 @@ cpl-dashboard/
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Buat file `requirements.txt`:
 
@@ -72,7 +72,7 @@ matplotlib
 
 ---
 
-## 🚀 Instalasi Lokal
+##  Instalasi Lokal
 
 ```bash
 pip install -r requirements.txt
@@ -81,7 +81,7 @@ streamlit run app.py
 
 ---
 
-## 🌐 Deployment ke GitHub
+## Deployment ke GitHub
 
 ### 1. Inisialisasi Git
 
@@ -90,7 +90,6 @@ git init
 git add .
 git commit -m "Initial commit CPL Dashboard"
 ```
-
 ---
 
 ### 2. Hubungkan ke Repository
@@ -100,28 +99,22 @@ git remote add origin https://github.com/USERNAME/cpl-dashboard.git
 git branch -M main
 git push -u origin main
 ```
-
 ---
 
-## ☁️ Deployment ke Streamlit Cloud
-
-Gunakan platform:
+## Deployment ke Streamlit Cloud
 👉 Streamlit Community Cloud
 
 ### Langkah:
-
 1. Login ke Streamlit Cloud
 2. Klik **New App**
 3. Pilih repository GitHub
 4. Pilih file:
-
    * `app.py`
 5. Klik **Deploy**
 
 ---
 
 ## 🔁 Auto Deployment
-
 Setiap perubahan kode:
 
 ```bash
@@ -138,7 +131,6 @@ git push
 ---
 
 ## 🌍 Integrasi dengan Blogger
-
 Aplikasi dapat di-embed ke Blogger menggunakan iframe:
 
 ```html
@@ -148,9 +140,7 @@ Aplikasi dapat di-embed ke Blogger menggunakan iframe:
     height="800">
 </iframe>
 ```
-
 ---
-
 ## 📊 Struktur Dataset
 
 Format Excel:
@@ -159,8 +149,7 @@ Format Excel:
 | ---- | ----- | ----------- | ------ | --- | ---- | --- |
 
 ---
-
-## 📈 Output Sistem
+## Output Sistem
 
 * Rata-rata CPL
 * Ketercapaian (%)
@@ -168,10 +157,9 @@ Format Excel:
 * Analisis mahasiswa
 * Status CPL
 * Laporan PDF otomatis
-
 ---
 
-## 📄 Output PDF
+## Output PDF
 
 Laporan PDF berisi:
 
@@ -195,14 +183,13 @@ Laporan PDF berisi:
 
 ---
 
-## 🔥 Pengembangan Lanjutan
+## Pengembangan Lanjutan
 
 * Multi mata kuliah → CPL Prodi
 * Integrasi database (PostgreSQL)
 * Login multi-user (dosen)
 * Tracking CPL antar semester
 * Integrasi sistem akademik
-
 ---
 
 ## 👨‍🏫 Pengembang
@@ -216,5 +203,4 @@ Universitas Negeri Makassar
 ## 📌 Lisensi
 
 Digunakan untuk keperluan akademik, penelitian, dan pengembangan sistem OBE di lingkungan pendidikan tinggi.
-
 ---
