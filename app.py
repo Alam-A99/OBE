@@ -208,6 +208,7 @@ st.subheader("📌 Identitas")
 
 matkul = st.text_input("Mata Kuliah", "Algoritma")
 kelas = st.text_input("Kelas", "A")
+Dosen = st.text_input("Dosen", "Alam dan Yin")
 jumlah_mhs = len(df)
 
 
