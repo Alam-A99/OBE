@@ -108,7 +108,7 @@ with st.expander("📥 Download Template Excel"):
 # =========================================================
 # Upload multi-file
 # =========================================================
-st.subheader("📥 Upload Nilai — multi file Mata Kuliah")
+st.subheader("📥 Upload Nilai — File Mata Kuliah")
 
 uploaded_files = st.file_uploader(
     "Upload File Excel Nilai Mahasiswa (boleh lebih dari 1 file, misal 4 mata kuliah)",
