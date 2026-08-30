@@ -12,7 +12,7 @@ from reportlab.lib.units import cm
 
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="Dashboard CPL - OBE", layout="wide", page_icon="📊")
+st.set_page_config(page_title="Dashboard CPL - Multi Mata Kuliah", layout="wide", page_icon="📊")
 
 # =========================================================
 # Konfigurasi dasar
@@ -109,7 +109,7 @@ with st.expander("📥 Download Template Excel"):
 # =========================================================
 # Upload multi-file
 # =========================================================
-st.subheader("📥 Upload Nilai — File Mata Kuliah")
+st.subheader("📥 Upload Nilai Mata Kuliah")
 
 uploaded_files = st.file_uploader(
     "Upload File Excel Nilai Mahasiswa (satu file = satu mata kuliah, boleh banyak sekaligus)",
