@@ -12,7 +12,7 @@ from reportlab.lib.units import cm
 
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="Dashboard CPL - Multi Mata Kuliah", layout="wide", page_icon="📊")
+st.set_page_config(page_title="Dashboard CPL - OBE", layout="wide", page_icon="📊")
 
 # =========================================================
 # Konfigurasi dasar
@@ -91,7 +91,7 @@ def style_status(styler_input, func, threshold):
 # =========================================================
 # Header
 # =========================================================
-st.title("📊 Dashboard CPL Multi Mata Kuliah — 1 Semester (Bobot per Matkul)")
+st.title("📊 Dashboard CPL OBE")
 st.caption(
     "Upload seluruh mata kuliah dalam 1 semester. Setiap mata kuliah punya "
     "pemetaan CPL dan bobot komponen penilaian sendiri-sendiri (sesuai RPS masing-masing), "
